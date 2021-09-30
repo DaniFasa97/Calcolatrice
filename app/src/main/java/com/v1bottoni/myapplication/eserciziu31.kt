@@ -21,10 +21,19 @@ class eserciziu31 {
 
          fun sum(x: Double) {
 
+             val milliseconds = null
              var seconds = (milliseconds / 1000) as Int % 60
              var minutes = (milliseconds / (1000 * 60) % 60) as Int
              var hours = (milliseconds / (1000 * 60 * 60) % 24) as Int
              print("trasformami il tempo")
          }
 
+}
+
+private operator fun Any.rem(i: Int): Any {
+    TODO("Not yet implemented")
+}
+
+private operator fun Nothing?.div(i: Int): Any {
+    TODO("Not yet implemented")
 }
